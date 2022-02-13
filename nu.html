@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nam.css">
+    <link rel="stylesheet" href="Icon/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+<body>
+       <!-- Messenger Plugin chat Code -->
+       <div id="fb-root"></div>
+
+       <!-- Your Plugin chat code -->
+       <div id="fb-customer-chat" class="fb-customerchat">
+       </div>
+   
+       <script>
+         var chatbox = document.getElementById('fb-customer-chat');
+         chatbox.setAttribute("page_id", "103786685571551");
+         chatbox.setAttribute("attribution", "biz_inbox");
+       </script>
+   
+       <!-- Your SDK code -->
+       <script>
+         window.fbAsyncInit = function() {
+           FB.init({
+             xfbml            : true,
+             version          : 'v13.0'
+           });
+         };
+   
+         (function(d, s, id) {
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) return;
+           js = d.createElement(s); js.id = id;
+           js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+       </script>
+        <!-- Phan dau menu -->
+        <div class="header">
+            <a href="index.html"><img src="Picture/logo-mona-2.png" alt=""></a>
+            <div class="input-search">
+                <input type="text" placeholder="  Tìm Kiếm...">
+                <div>
+                    <button class="button-search"><i class="ti-search"></i></button> 
+                </div>
+            </div>
+            <div>
+                <a class="icon-shop" href=""><i class="ti-shopping-cart"></i></i></a>
+                <a class="icon-user" href=""><i class="far fa-user"></i></a>
+            </div>
+        </div>
+        <div class="list-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="Nam.html">Đồng Hồ Nam</a></li>
+                    <li><a href="nu.html">Đồng Hồ Nữ</a></li>
+                    <li><a href="about.html">Giới Thiệu</a></li>
+                    <li><a href="#5">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- phan cuoi menu -->
+        <div class="firt-layout">
+            <a href="">Trang chủ</a>
+            <div class="divider"> / </div> 
+            <div class="after-divider">Đồng hồ nữ</div>
+        </div>
+        <div class="second-layout"> 
+            <div class="list-layout">
+                <div class="title-second">Danh mục sản phẩm</div>
+                <div class="vmenu">
+                    <ul>
+                        <li><a href="">Demo</a></li>
+                        <li><a href="">Demo</a></li>
+                        <li><a href="">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="title-second-2">sản phẩm</div>
+                <div class="vmenu-2">
+                    <ul>
+                        <li>
+                            <img src="Picture_1/product-16.jpg" alt="">
+                            <a href="">Simple 10</a> 300,000 đ
+                        </li>
+
+                        <li>
+                            <img src="Picture_1/product-14.jpg" alt="">
+                            <a href="">Simple 9</a> 300,000 đ
+                        </li>
+                        <li>
+                            <img src="Picture_1/product-13.jpg" alt="">
+                            <a href="">Simple 8</a> 300,000 đ
+                        </li>
+                        <li>
+                            <img src="Picture_1/product-12.jpg" alt="">
+                            <a href="">Simple 8</a> 300,000 đ
+                        </li>
+                    </ul>
+                </div>
+                <div class="title-second-2">Bài viết mới nhất</div>
+                <div class="vmenu-3">
+                    <ul>
+                        <li>
+                            <img src="Picture_1/news-5.jpg" alt="">
+                            <a href="">Chiếc đồng hồ của những CEO
+                                quyền lực nhất thế giới</a>
+                        </li>
+
+                        <li>
+                            <img src="Picture_1/news-4.jpg" alt="">
+                            <a href="">12 chiếc đồng hồ dành cho nữ 
+                                giới đắt giá nhất mọi thời đại</a>
+                        </li>
+                        <li>
+                            <img src="Picture_1/news-3.jpg" alt="">
+                            <a href="">10 thương hiệu đồng hồ <br>
+                                cao cấp hàng đầu mọi quý ông</a>
+                        </li>
+                        <li>
+                            <img src="Picture_1/new-2.jpg" alt="">
+                            <a href="">6 chiếc đồng hồ ấn tượng tại Oscar 2019</a>
+                        </li>
+                        <li>
+                            <img src="Picture_1/news-1.jpg" alt="">
+                            <a href="">Casio sẽ ra mắt đồng hồ thông minh thương hiệu G-Shock</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-product-3">
+                <div class="fa-product-1">
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-16.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-09.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-11.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-13.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-top: 40px;"></div>
+                <div class="fa-product-1">
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture_1/product-02.png" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-06.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-07.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-13.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-top: 40px;"></div>
+                <div class="fa-product-1">
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture_1/product-02.png" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-06.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-07.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                    <div class="col-product-1">
+                        <a href="">
+                            <img src="Picture/product-13.jpg" alt="">
+                        </a>
+                        <div class="col-price-1">
+                            <div class="title-price-1">Đồng hồ 1</div>
+                            <div class="title-price-3">700,000 đ</div>
+                            <div class="buy-price-1"><a href="">Thêm vào giỏ</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 60px;"></div>
+        <hr>
+        <div style="padding: 30px"></div>
+        <div class="footer">
+            <h1>Đăng ký nhận thông tin</h1>
+            <input type="text" placeholder="   Email..."> <button>Đăng Ký</button>
+        </div>
+        <div style="padding: 30px"></div>
+        <div class="footer-end">
+            <div style="padding-left: 50px;">
+                <div class="footer-title">Thông tin liên hệ</div>
+                <div class="footer-content">
+                    <div> <i class="fas fa-map-marker-alt"></i> QL.28 Di Linh Lâm Đồng</div>
+                    <div> <i class="fas fa-phone-square-alt"></i> 096 777 3JQK</div>
+                    <i class="ti-email"> </i><a>truongphi754@gmail.com</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-title">Liên kết</div>
+                <div class="footer-content">
+                    <a href="">Giới thiệu</a> <br>
+                    <a href="">Đồng hồ nam</a> <br>
+                    <a href="">Đồng hồ nữ</a> <br>
+                    <a href="">Blogs</a>
+                </div>
+            </div>
+            <div >
+                <div class="footer-title">Hộ trợ</div>
+                <div class="footer-content">
+                    <a href="">hướng dẫn mua hàng</a> <br>
+                    <a href="">Đồng hồ nam</a> <br>
+                    <a href="">Đồng hồ nữ</a> <br>
+                    <a href="">Blogs</a> 
+                </div>
+            </div>
+            <div style="padding-right: 0;">
+                <div class="footer-title">TẢI ỨNG DỤNG TRÊN</div>
+                <div class="footer-content">
+                    <div style="line-height: 20px; padding-bottom: 10px;">Ứng dụng Mona Watch hiện có sẵn trên <br> 
+                        Google Play & App Store. Tải nó ngay.</div>
+                        <img src="Picture/footer1.jpg" alt="">
+                        <br>
+                        <img src="Picture/footer2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+</body>
+</html>

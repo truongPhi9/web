@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.firt-layout{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 100%;
+    height: 68px;
+    color: rgba(102,102,102,0.7);
+    line-height: 70px;
+    font-size: 18.4px;
+    /* sửa lại */
+    display: flex;    
+    word-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.firt-layout .divider {
+    color: rgba(102,102,102,0.7);
+    margin: 0 9px 0 9px;
+}
+
+.firt-layout .after-divider {
+    color: black;
+    font-weight: 700;
+}
+
+.firt-layout a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgba(102,102,102,0.7);
+}
+
+.firt-layout a:hover {
+    color: #111;
+}
+
+.second-layout {
+    padding-top: 30px;
+    /* background-color: blueviolet; */
+    width: 100%;
+    /* height: 1182.91px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-layout .title-second {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+/* aside 1 */
+.list-layout {
+    width: 20%;
+    /* height: 1122.910px; */
+}
+
+.list-layout .vmenu {
+    background-color: #FCFCFC;
+    margin-top: 25px;
+}
+
+.list-layout .vmenu ul {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.list-layout .vmenu ul li {
+    list-style: none;
+    border-bottom: 1px dotted #DDDDDD;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.list-layout .vmenu ul li:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.list-layout .vmenu ul li a {
+    text-decoration: none;
+    color: #334862;
+}
+
+.list-layout .title-second-2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.list-layout .vmenu {
+    background-color: #FCFCFC;
+    margin-top: 25px;
+}
+
+/* aside 2 */
+
+.list-layout .vmenu-2 ul {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    position: relative;
+    background-color: #FCFCFC;
+}
+
+.list-layout .vmenu-2 ul li {
+    list-style: none;
+    border-bottom: 1px dotted #DDDDDD;
+    font-size: 14px;
+    padding: 10px 0 10px 10px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.list-layout .vmenu-2 ul li img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.list-layout .vmenu-2 ul li:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.list-layout .vmenu-2 ul li a {
+    position: absolute;
+    text-decoration: none;
+    color: #334862;
+    text-align: right;
+    font-weight: normal;
+}
+
+.list-layout .vmenu-2 ul li a:hover {
+    color: #D3AA81;
+}
+
+.list-layout .vmenu-2 ul li:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.list-layout .vmenu-2 ul li a {
+    text-decoration: none;
+    color: #334862;
+}
+
+/* aside 3 */
+.list-layout .vmenu-3 ul {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    position: relative;
+    background-color: #FCFCFC;
+}
+
+.list-layout .vmenu-3 ul li {
+    list-style: none;
+    border-bottom: 1px dotted #DDDDDD;
+    font-size: 14px;
+    padding: 10px 0 10px 10px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.list-layout .vmenu-3 ul li img {
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.list-layout .vmenu-3 ul li:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.list-layout .vmenu-3 ul li a {
+    position: absolute;
+    text-decoration: none;
+    color: #334862;
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.list-layout .vmenu-3 ul li a:hover {
+    color: #D3AA81;
+}
+
+.list-layout .vmenu-3 ul li:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.list-layout .vmenu-3 ul li a {
+    text-decoration: none;
+    color: #334862;
+}
+
+/* product */
+
+.box-product-3 .fa-product-1{
+    display: flex;
+}
+
+.fa-product-1 .col-product-1 {
+    border: 1px solid #EBEBEB;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.fa-product-1 .col-product-1:hover {
+    box-shadow: 0 0 5px gray;
+}
+
+.fa-product-1 .col-product-1 img {
+    width: 208px;
+    height: 208px;
+}
+
+.fa-product-1 .col-product-1 .col-price-1 {
+    text-align: center;
+    line-height: 30px;
+    padding: 15px;
+}
+
+.col-price-1 .title-price-1 {
+    color: #3A3A3A;
+    font-size: 17.28px;
+}
+
+.col-price-1 .title-price-3 {
+    color: #C89979;
+    font-size: 14.4px;
+}
+
+.col-product-1 .col-price-1 .buy-price-1 a {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #D3AA81;
+    color: white;
+    padding: 7px 15px 7px 15px;
+}
+
+.col-product-1 .col-price-1 .buy-price-1 a:hover {
+    background-color: #A07B61;
+}

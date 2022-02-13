@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Icon/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "103786685571551");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Phan dau menu -->
+    <div class="header">
+        <a href="index.html"><img src="Picture/logo-mona-2.png" alt=""></a>
+        <div class="input-search">
+            <input type="text" placeholder="  Tìm Kiếm...">
+            <div>
+                <button class="button-search"><i class="ti-search"></i></button> 
+            </div>
+        </div>
+        <div>
+            <a class="icon-shop" href=""><i class="ti-shopping-cart"></i></i></a>
+            <a class="icon-user" href=""><i class="far fa-user"></i></a>
+        </div>
+    </div>
+    <div class="list-menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="Nam.html">Đồng Hồ Nam</a></li>
+                <li><a href="nu.html">Đồng Hồ Nữ</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="#5">Blogs</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- phan cuoi menu -->
+    <div class="banner">
+        <div class="first-banner">
+            <div class="title-banner">
+                <h2>Mono Watch</h2>
+                <h1>Đồng Hồ Classico</h1>
+                    <p>Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương hiệu 
+                        <br>
+                        cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách, 
+                        <br>
+                        kiểu dáng, màu sắc, kích cỡ…
+                    </p>
+            </div>
+            <div class="box-content">
+                <a href="">Xem Sản Phẩm</a>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div style="padding-top: 60px;"></div>
+        <div class="picture-advertisement-1">
+            <div class="watch1 item-tile">
+                <a href=""><img src="Picture/watch1.1.jpg" alt="" style="width: 585px;"></a>
+                <div class="watch1-title item-tile"> 
+                    <div>
+                        <p>Xu hướng 2022</p>
+                        <hr color="#D3AA81" style="margin-top: 6%; margin-bottom: 15px; width: 50px; margin-left: 0px;">
+                    </div>
+                    <div>
+                        <h1 style="font-size: 40px;">Đồng Hồ Nam</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="watch2 item-tile">
+                <a href=""><img src="Picture/watch2.2.jpg" alt="" style="width: 585px;"></a>
+                <div class="watch2-title"> 
+                    <div>
+                        <p>Xu hướng 2022</p>
+                        <hr color="#D3AA81" style="margin-top: 15px; margin-bottom: 15px; width: 50px; margin-left: 0px">
+                    </div>
+                    <div>
+                        <h1 style="font-size: 40px;">Đồng Hồ Nữ</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="padding-top: 10px;"></div>
+    <div class="box-product">
+        <div class="title-product">
+            <h2>Sản phẩm bán chạy</h2>
+        </div>
+        <div class="list-product">
+            <div class="product">
+                <a href="">
+                    <img src="Picture/product-1.png" alt="">
+                </a>
+                <div class="product-price" style="color: #D3AA81; font-weight: bolder;">
+                    <a class="product-price-title"  href="">Classico 1</a> <br>
+                    <del style="font-weight: lighter;">700,00 đ</del> 500,000 đ
+                    <br>
+                    <a class="button-buy" href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="product">
+                <a href="">
+                    <img src="Picture/product-2.png" alt="">
+                </a>
+                <div class="product-price" style="color: #D3AA81; font-weight: bolder;">
+                    <a class="product-price-title" href="">Classico 2</a> <br>
+                    <del style="font-weight: lighter;">900,000 đ</del> 700,000 đ
+                    <br>
+                    <a class="button-buy" href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="product">
+                <a href="">
+                    <img src="Picture/product-3.png" alt="">
+                </a>
+                <div class="product-price" style="color: #D3AA81; font-weight: bolder;">
+                    <a class="product-price-title" href="">Classico 3</a> <br>
+                    <del style="font-weight: lighter;">500,00 đ</del> 350,000 đ
+                    <br>
+                    <a class="button-buy" href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="product">
+                <a href="">
+                    <img src="Picture/product-4.png" alt="">
+                </a>
+                <div class="product-price" style="color: #D3AA81; font-weight: bolder;">
+                    <a class="product-price-title" href="">Classico 4</a> <br>
+                    <del style="font-weight: lighter;">1,200,000 đ</del> 900,000 đ
+                    <br>
+                    <a class="button-buy" href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-picture">
+        <div class="banner-link-1">
+            <img src="Picture/banner-4.1.jpg" alt="">
+            <div class="letter-1">
+                <h1>Cổ Điển</h1>
+                <p>Đa dạng về phong cách, kiểu <br>
+                    dáng, màu sắc, kích cỡ…
+                </p>
+            </div>
+        </div>
+        <div class="banner-link-1">
+            <img src="Picture/banner-5.1.jpg" alt="">
+            <div class="letter-2">
+                <h1>Smart Watch</h1>
+                <p>Đa dạng về phong cách, kiểu <br>
+                    dáng, màu sắc, kích cỡ…
+                </p>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 60px;"></div>
+    <div class="box-product-2">
+        <div class="title-product">
+            <h2>Sản được yêu thích</h2>
+            <div class="fa-product">
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-16.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-14.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-13.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-12.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-11.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="fa-product">
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-10.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-09.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-08.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-07.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-product">
+                    <a href="">
+                        <img src="Picture/product-06.jpg" alt="">
+                    </a>
+                    <div class="col-price">
+                        <div class="title-price">Đồng hồ 1</div>
+                        <div class="title-price-2">700,000 đ</div>
+                        <div class="buy-price"><a href="">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 30px;"></div>
+        <div class="new-img">
+            <div class="new-1">
+                <a href="">
+                    <img src="Picture/new-1.jpg" alt="">
+                </a>
+                <a href="">
+                    <div class="new-title">Chiếc đồng hồ của những CEO quyền lực <br> nhất thế giới</div>
+                    <p>Đối với một số doanh nhân, một chiếc đồng hồ đeo tay <br> không chỉ là ...</p>
+                </a>
+            </div>
+            <div class="new-1">
+                <a href="">
+                    <img src="Picture/new-2.jpg" alt="">
+                </a>
+                <a href="">
+                    <div class="new-title">12 chiếc đồng hồ dành cho nữ giới đắt giá <br> nhất mọi thời đại</div>
+                    <p>Đối với một số doanh nhân, một chiếc đồng hồ đeo tay <br> không chỉ là ...</p>
+                </a>
+            </div>
+            <div class="new-1">
+                <a href="">
+                    <img src="Picture/new-3.jpg" alt="">
+                </a>
+                <a href="">
+                    <div class="new-title">10 thương hiệu đồng hồ cao cấp hàng đầu <br> mọi quý ông đều quan tâm, Rolex xếp hạng... </div>
+                    <p>Đối với một số doanh nhân, một chiếc đồng hồ đeo tay <br> không chỉ là ...</p>
+                </a>
+            </div>
+        </div>
+        <!-- phan footer -->
+        <hr>
+        <div style="padding: 30px"></div>
+        <div class="footer">
+            <h1>Đăng ký nhận thông tin</h1>
+            <input type="text" placeholder="   Email..."> <button>Đăng Ký</button>
+        </div>
+        <div style="padding: 30px"></div>
+        <div class="footer-end">
+            <div style="padding-left: 50px;">
+                <div class="footer-title">Thông tin liên hệ</div>
+                <div class="footer-content">
+                    <div> <i class="fas fa-map-marker-alt"></i> QL.28 Di Linh Lâm Đồng</div>
+                    <div> <i class="fas fa-phone-square-alt"></i> 096 777 3JQK</div>
+                    <i class="ti-email"> </i><a>truongphi754@gmail.com</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-title">Liên kết</div>
+                <div class="footer-content">
+                    <a href="">Giới thiệu</a> <br>
+                    <a href="">Đồng hồ nam</a> <br>
+                    <a href="">Đồng hồ nữ</a> <br>
+                    <a href="">Blogs</a>
+                </div>
+            </div>
+            <div >
+                <div class="footer-title">Hộ trợ</div>
+                <div class="footer-content">
+                    <a href="">Hướng dẫn mua hàng</a> <br>
+                    <a href="">Đồng hồ nam</a> <br>
+                    <a href="">Đồng hồ nữ</a> <br>
+                    <a href="">Blogs</a> 
+                </div>
+            </div>
+            <div style="padding-right: 0;">
+                <div class="footer-title">TẢI ỨNG DỤNG TRÊN</div>
+                <div class="footer-content">
+                    <div style="line-height: 20px; padding-bottom: 10px;">Ứng dụng Mona Watch hiện có sẵn trên <br> 
+                        Google Play & App Store. Tải nó ngay.</div>
+                        <img src="Picture/footer1.jpg" alt="">
+                        <br>
+                        <img src="Picture/footer2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- het phan footer -->
+</body>
+</html>
